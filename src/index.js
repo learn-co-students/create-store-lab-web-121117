@@ -13,3 +13,5 @@ ReactDOM.render(
   <App store={configureStore()} />,
   document.getElementById('root')
 );
+
+configureStore().dispatch({type: '@@INIT'})
